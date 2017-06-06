@@ -2,6 +2,8 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: 'Mogra', cursive;
+	font-size: 20px;
 }
 #container{
   height: 70px;
@@ -14,6 +16,12 @@ ul{
 }
 a{
   margin-top: 20px;	
-  text-decoration-color: #78054e;
+  color: #78054e;
   text-decoration:none;
+  border-left: #78054e;
+}
+a:hover{
+	background-size: 30px;
+	background-color: #f18298;
+	border: 10%;
 }

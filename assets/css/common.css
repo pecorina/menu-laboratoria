@@ -1,0 +1,10 @@
+@media only screen and (max-width: 500px){
+	#container{
+    font-family: 'Mogra', cursive;
+    font-family: 'Vibur', cursive;
+    font-family: 'Indie Flower', cursive;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+    }
+}
