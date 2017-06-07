@@ -1,5 +1,22 @@
-@media only screen and (max-width: 500px){
+@media (min-width: 1px) and (max-width: 699px){
 	#container{
+        background-color: black;
+        height: auto;
+        flex-direction: column;
+    }
+    #container a{
+    	width: 100%;
+    	border-bottom: 1px solid black;
+    	flex-direction: center;
+        font-family: 'Mogra', cursive;
+        font-family: 'Vibur', cursive;
+        font-family: 'Indie Flower', cursive;
+
+    }
+
+}
+/*
+#container{
     font-family: 'Mogra', cursive;
     font-family: 'Vibur', cursive;
     font-family: 'Indie Flower', cursive;
@@ -7,4 +24,3 @@
 	align-items: center;
 	flex-direction: column;
     }
-}
